@@ -1,0 +1,26 @@
+GET http://localhost:3001/editorial
+#######
+
+
+GET http://localhost:3001/editorial/1
+
+#######
+POST http://localhost:3001/editorial
+Content-Type: application/json
+
+{
+    "nombre": "Norma"
+}
+
+######
+
+PUT http://localhost:3001/editorial
+Content-Type: application/json
+
+{
+    "id": 2,
+    "nombre": "Panini"
+}
+
+######
+DELETE http://localhost:3001/editorial/3

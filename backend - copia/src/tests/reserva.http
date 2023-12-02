@@ -1,0 +1,26 @@
+GET http://localhost:3001/reserva
+#######
+
+
+GET http://localhost:3001/reserva/1
+
+#######
+POST http://localhost:3001/reserva
+Content-Type: application/json
+
+{
+    "fecha_reserva": "2023-10-25",
+    "fecha_devolucion": "2023-11-24",
+    "usuarioid":1,
+    "libroid": 5,
+}
+
+######
+
+PUT http://localhost:3001/reserva
+Content-Type: application/json
+
+
+
+######
+DELETE http://localhost:3001/reserva/3

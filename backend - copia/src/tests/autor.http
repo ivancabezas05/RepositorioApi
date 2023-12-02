@@ -1,0 +1,27 @@
+GET http://localhost:3001/autor
+#######
+
+
+GET http://localhost:3001/autor/1
+
+#######
+POST http://localhost:3001/autor
+Content-Type: application/json
+
+{
+    "nombre": "William Shakespeare"
+}
+
+######
+
+PUT http://localhost:3001/autor
+Content-Type: application/json
+
+{
+    "id": 2,
+    "nombre": "Alejandro Dumas"
+}
+
+######
+DELETE http://localhost:3001/autor/19
+

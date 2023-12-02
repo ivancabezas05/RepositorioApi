@@ -1,0 +1,17 @@
+INSERT INTO categorias (nombre) VALUES ('Informática');
+INSERT INTO categorias (nombre) VALUES ('Literatura');
+INSERT INTO categorias (nombre) VALUES ('Infantil y Juvenil');
+INSERT INTO categorias (nombre) VALUES ('Ingeniería');
+INSERT INTO categorias (nombre) VALUES ('Ciencias Humanas');
+INSERT INTO categorias (nombre) VALUES ('Computadoras y Tecnología');
+INSERT INTO categorias (nombre) VALUES ('Dispositivos Lectores de Libros Digitales');
+INSERT INTO categorias (nombre) VALUES ('Literatura Inglesa');
+INSERT INTO categorias (nombre) VALUES ('Literatura Infantil');
+INSERT INTO categorias (nombre) VALUES ('Ingeniería del Software');
+INSERT INTO categorias (nombre) VALUES ('Certificación Informática: Cisco');
+INSERT INTO categorias (nombre) VALUES ('Gestión de Proyectos Empresariales');
+INSERT INTO categorias (nombre) VALUES ('Programación Informática - Desarrollo de Software');
+INSERT INTO categorias (nombre) VALUES ('Pruebas y Verificación de Software');
+INSERT INTO categorias (nombre) VALUES ('Arquitectura y Diseño Lógico de Ordenadores');
+INSERT INTO categorias (nombre) VALUES ('Política y Gobierno');
+INSERT INTO categorias (nombre) VALUES ('Lenguajes de Programación');

@@ -1,0 +1,34 @@
+GET http://localhost:3001/libro
+#######
+
+
+GET http://localhost:3001/libro/1
+
+#######
+POST http://localhost:3001/libro
+Content-Type: application/json
+
+{
+    "titulo": "Romeo y Julieta",
+    "serie": 1,
+    "isbn": "8959345670",
+    "imagen_url": "ddddd",
+    "disponibilidad": true,
+    "descripion": "Descripcion del libro aqui",
+    "autorid": 20,
+    "editorialid": 1,
+    "categoriaid": 2 
+}
+
+######
+
+PUT http://localhost:3001/libro
+Content-Type: application/json
+
+{
+    "id": 12,
+    "disponibilidad": false
+}
+
+######
+DELETE http://localhost:3001/libro/13

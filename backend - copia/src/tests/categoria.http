@@ -1,0 +1,27 @@
+GET http://localhost:3001/categoria
+#######
+
+
+GET http://localhost:3001/categoria/1
+
+#######
+POST http://localhost:3001/categoria
+Content-Type: application/json
+
+{
+    "nombre": "Ciencia Ficcion"
+}
+
+######
+
+PUT http://localhost:3001/categoria
+Content-Type: application/json
+
+{
+    "id": 3,
+    "nombre": "Terror"
+}
+
+######
+DELETE http://localhost:3001/categoria/3
+

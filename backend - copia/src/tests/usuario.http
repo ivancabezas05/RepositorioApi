@@ -1,0 +1,40 @@
+GET http://localhost:3001/usuario
+#######
+
+GET http://localhost:3001/usuario/1
+
+#######
+POST http://localhost:3001/usuario
+Content-Type: application/json
+
+{
+    "id": 10,
+    "nombre": "Lopez",
+    "apellidos": "MoralesTorres",
+    "foto_url": "fsdfd",
+    "nro_Documento": "5555555",
+    "correo_electronico": "cesarmoron23@gmail.com",
+    "contrasena": "1111",
+    "idioma": "espanol",
+    "prefijo": "cesitar",
+    "color": "negro",
+    "idtipodocumento": 1,
+    "idtipousuario": 1
+}
+
+######
+
+PUT http://localhost:3001/usuario
+Content-Type: application/json
+
+{
+    "id": 1,
+    "nombre": "Juan Carlos",
+    "apellidos": "Morales Gallegos"
+}
+
+######
+DELETE http://localhost:3001/usuario/1
+
+juan carlos 
+morales gallegos

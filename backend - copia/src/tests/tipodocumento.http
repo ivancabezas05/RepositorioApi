@@ -1,0 +1,25 @@
+GET http://localhost:3001/tipodocumento
+#######
+
+GET http://localhost:3001/tipodocumento/1
+
+#######
+POST http://localhost:3001/tipodocumento
+Content-Type: application/json
+
+{
+    "nombre": "licencia"
+}
+
+######
+
+PUT http://localhost:3001/tipodocumento
+Content-Type: application/json
+
+{
+    "id": 2,
+    "nombre": "Pasaporte"
+}
+
+######
+DELETE http://localhost:3001/tipodocumento/3

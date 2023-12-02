@@ -1,0 +1,25 @@
+GET http://localhost:3001/tipousuario
+#######
+
+GET http://localhost:3001/tipousuario/1
+
+#######
+POST http://localhost:3001/tipousuario
+Content-Type: application/json
+
+{
+    "nombre": "docente"
+}
+
+######
+
+PUT http://localhost:3001/tipousuario
+Content-Type: application/json
+
+{
+    "id": 1,
+    "nombre": "aprendiz"
+}
+
+######
+DELETE http://localhost:3001/tipousuario/1
